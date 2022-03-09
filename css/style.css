@@ -1,0 +1,17 @@
+body{
+  max-width: 380px;
+}
+
+header {
+  text-align: center;
+  background-image: url(../img/image-fruit.webp) ;
+  padding-bottom: 300px;
+}
+
+h1 {
+  font-family: 'Sriracha', cursive;
+  font-size: 50px;
+  color: rgb(125, 185, 111);
+  background-color: white, opacity(40%);
+}
+
