@@ -1,17 +1,18 @@
 body{
   max-width: 380px;
+  margin: auto;
 }
 
 header {
   text-align: center;
-  background-image: url(../img/image-fruit.webp) ;
-  padding-bottom: 300px;
+  background-image: url(../img/image-fruit.webp);
+  background-size: cover;
+  padding: 110px 110px;
 }
 
-h1 {
-  font-family: 'Sriracha', cursive;
-  font-size: 50px;
-  color: rgb(125, 185, 111);
-  background-color: white, opacity(40%);
+.title-container {
+  background: white;
+  
+  width: 150%;
 }
 
