@@ -11,18 +11,42 @@ header {
 }
 
 .title-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
   background: rgba(255, 255, 255, 0.89);
-  margin: 0;
-  color: color rgb(125, 185, 111);
+  color: rgb(125, 185, 111);
+  font-size: 20px;
+}
+
+.juice-button {
+  background-color: rgb(125, 185, 111);
+  
 }
 
 .description {
   font-family: 'Quattrocento', serif;
   text-align: center;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.label {
+  margin-top: 68px;
+  margin-right: 60px;
+  margin-left: 60px;
 }
 
 h2 {
   font-family: 'Maven Pro', sans-serif;
   font-size: 26px;
   text-align: center;
+}
+
+.juice-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 42px 68px 68px;
+  height: 27px;
 }
