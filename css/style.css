@@ -67,8 +67,9 @@ h3 {
 
 .juice-banana {
   background: #FCF7D6;
-  border-radius: 30px;
-  margin: 45px;
+  border-radius: 20px;
+  margin: 29px;
+  padding: 29px;
 }
 
 .juice-banana-content img {
@@ -77,5 +78,21 @@ h3 {
 
 .juice-banana-content {
   font-family: 'Maven Pro', sans-serif;
-  
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.juice-banana-content a {
+  align-self: flex-end;
+}
+
+.juice-banana h3 {
+  margin: auto;
+}
+
+.description-content {
+  margin-top: 5px;
+  font-family: 'Quattrocento', serif;
+  opacity: 50%;
 }
