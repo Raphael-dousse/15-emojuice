@@ -16,12 +16,12 @@ header {
   justify-items: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.89);
-  color: rgb(125, 185, 111);
+  color: #57bb6b;
   font-size: 20px;
 }
 
 .juice-button {
-  background-color: rgb(125, 185, 111);
+  background-color: #57bb6b;
 }
 
 .description {
@@ -32,7 +32,7 @@ header {
 }
 
 .label-container {
-  margin-top: 68px;
+  margin-top: 97px;
   margin-right: 60px;
   margin-left: 60px;
 }
@@ -52,5 +52,30 @@ h2 {
 }
 
 main {
-  background: rgb(125, 185, 111);
+  background: #57bb6b;
+}
+
+.title-fruit {
+  color: #FCF7F7;
+  padding-top: 45px;
+}
+
+h3 {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+}
+
+.juice-banana {
+  background: #FCF7D6;
+  border-radius: 30px;
+  margin: 45px;
+}
+
+.juice-banana-content img {
+  height: 64px;
+}
+
+.juice-banana-content {
+  font-family: 'Maven Pro', sans-serif;
+  
 }
