@@ -22,7 +22,6 @@ header {
 
 .juice-button {
   background-color: rgb(125, 185, 111);
-  
 }
 
 .description {
@@ -49,4 +48,9 @@ h2 {
   justify-content: space-between;
   margin: 42px 68px 68px;
   height: 27px;
+  margin-bottom: 97px;
+}
+
+main {
+  background: rgb(125, 185, 111);
 }
