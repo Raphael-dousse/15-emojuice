@@ -21,7 +21,22 @@ header {
 }
 
 .juice-button {
-  background-color: #57bb6b;
+  display: flex;
+  flex-direction: column;
+}
+
+.juice-button-content {
+  background: #57bb6b;
+  border-radius: 20px;
+  margin-bottom: 18px;
+  padding: 18px 19px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.juice-button-content a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 
 .description {
@@ -182,4 +197,16 @@ h3 {
 
 .strawberry-delight h3 {
   margin: auto;
+}
+
+.title-fruit-two {
+  color: #57bb6b;
+  padding-top: 45px;
+}
+
+.little-label {
+  text-align: center;
+  color:#7DB96F;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 12px;
 }
