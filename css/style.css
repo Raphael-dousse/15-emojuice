@@ -1,13 +1,15 @@
 body{
   max-width: 380px;
   margin: auto;
+  border-top: solid 8px #57bb6b;
 }
 
 header {
   text-align: center;
   background-image: url(../img/image-fruit.webp);
   background-size: cover;
-  padding: 110px 110px;
+  padding: 28px 30px 44px;
+  font-size: 20px;
 }
 
 .title-container {
@@ -18,6 +20,8 @@ header {
   background: rgba(255, 255, 255, 0.89);
   color: #57bb6b;
   font-size: 20px;
+  padding: 35px 58px 29px;
+  margin-bottom: 33px;
 }
 
 .juice-button {
@@ -36,6 +40,21 @@ header {
 .juice-button-content a {
   text-decoration: none;
   color: white;
+  font-size: 20px;
+}
+
+.juice-button-content-two {
+  background-color: white;
+  color: #57bb6b;
+  border-radius: 20px;
+  margin-bottom: 18px;
+  padding: 18px 19px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.juice-button-content-two a {
+  text-decoration: none;
+  color:#57bb6b;
   font-size: 20px;
 }
 
@@ -90,7 +109,7 @@ h3 {
 }
 
 .juice-banana-content img {
-  height: 64px;
+  height: 75px;
 }
 
 .juice-banana-content {
@@ -124,7 +143,7 @@ h3 {
 }
 
 .sirup-kiwi-content img {
-  height: 64px;
+  height: 75px;
 }
 
 .sirup-kiwi-content {
@@ -152,7 +171,7 @@ h3 {
 }
 
 .ice-coffee-content img {
-  height: 64px;
+  height: 75px;
 }
 
 .ice-coffee-content {
@@ -180,7 +199,7 @@ h3 {
 }
 
 .strawberry-delight-content img {
-  height: 64px;
+  height: 75px;
 }
 
 .strawberry-delight-content {
@@ -201,7 +220,7 @@ h3 {
 
 .title-fruit-two {
   color: #57bb6b;
-  padding-top: 45px;
+  margin-top: 35px;
 }
 
 .little-label {
@@ -209,4 +228,40 @@ h3 {
   color:#7DB96F;
   font-family: 'Maven Pro', sans-serif;
   font-size: 12px;
+}
+
+.juice-button-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.juice-button-two a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.button-one {
+  background: #57bb6b;
+  border-radius: 20px;
+  margin-bottom: 19px;
+  padding: 10px 20px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.button-two {
+  background: #57bb6b;
+  border-radius: 20px;
+  margin-bottom: 19px;
+  padding: 10px 20px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.button-three {
+  background: #57bb6b;
+  border-radius: 20px;
+  margin-bottom: 19px;
+  padding: 10px 20px;
+  font-family: 'Maven Pro', sans-serif;
 }
