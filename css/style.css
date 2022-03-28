@@ -22,6 +22,7 @@ header {
   font-size: 20px;
   padding: 35px 58px 29px;
   margin-bottom: 33px;
+  font-family: 'Quattrocento', serif;
 }
 
 .juice-button {
@@ -304,4 +305,35 @@ h3 {
   padding: 30px;
   border-radius: 80px;
   margin: 44px 50px 50px;
+}
+
+.kiwi-text {
+  color: white;
+}
+
+.kiwi-text p{
+  font-family: 'Quattrocento', serif;
+  padding: 10px 112px 35px 68px;
+  margin: auto;
+}
+
+.the-kiwi {
+  font-family: 'Maven Pro', sans-serif;
+  padding: 67px 100px 35px 68px;
+  margin: auto;
+  font-size: 26px;
+}
+
+.kiwi-text img {
+  height: 140px;
+  padding: 5px 60px;
+}
+
+.kiwi-list {
+  color: white;
+}
+
+ h4 {
+  font-size: 20px;
+  font-family: 'Quattrocento', serif;
 }
