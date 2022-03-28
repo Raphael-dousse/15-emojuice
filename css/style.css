@@ -299,6 +299,9 @@ h3 {
 
 .kiwi-decoration img {
   height: 100px;
-  clip-path: circle(50% at 50% 50%);
-
+  background: white;
+  box-shadow: 0 0 10px #33333344;
+  padding: 30px;
+  border-radius: 80px;
+  margin: 44px 50px 50px;
 }
