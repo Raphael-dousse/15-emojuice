@@ -267,6 +267,10 @@ h3 {
   font-family: 'Maven Pro', sans-serif;
 }
 
+.main-kiwi {
+  background: #57bb6b;
+}
+
 .kiwi {
   text-align: center;
   background-image: url(../img/image-fruit.webp);
@@ -326,14 +330,89 @@ h3 {
 
 .kiwi-text img {
   height: 140px;
-  padding: 5px 60px;
+  padding: 5px 60px 5px 66px;
 }
 
 .kiwi-list {
   color: white;
+  margin: 30px 100px 35px 68px;
+}
+
+.kiwi-list ul {
+  padding-left: 20px;
 }
 
  h4 {
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Quattrocento', serif;
+}
+
+.product-box {
+  background-color: #D0F1AE;
+  display: flex;
+  min-height: 344px;
+}
+
+.strawberry-delight-two {
+  background: #E2A2B1;
+  border-radius: 20px;
+  margin: 29px;
+  padding: 10px;
+  box-shadow: 0 0 20px #33333344;
+}
+
+.strawberry-delight-content-two img {
+  height: 75px;
+}
+
+.strawberry-delight-content-two {
+  font-family: 'Maven Pro', sans-serif;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.strawberry-delight-content-two a {
+  align-self: flex-end;
+  color: black;
+  font-size: 70px;
+  text-decoration: none;
+}
+
+.strawberry-delight h3 {
+  margin: auto;
+}
+
+.ice-coffee-two {
+  background: #CDC4B0;
+  border-radius: 20px;
+  margin: 29px;
+  padding: 10px;
+  box-shadow: 0 0 20px #33333344;
+}
+
+.ice-coffee-content-two img {
+  height: 75px;
+}
+
+.ice-coffee-content-two {
+  font-family: 'Maven Pro', sans-serif;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ice-coffee-content-two a {
+  align-self: flex-end;
+  color: black;
+  font-size: 70px;
+  text-decoration: none;
+}
+
+.ice-coffee-two h3 {
+  margin: auto;
+}
+
+.juice-button-content {
+  text-align: center;
 }
